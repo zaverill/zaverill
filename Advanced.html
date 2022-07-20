@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Advanced Search</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-right">
+        <a href="./index.html">Search</a>
+        <a href="./images.html">Images</a>
+      </div>
+    </div>    
+    <div class="advanced">
+        <img src="	https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google image">
+        <h1>Advanced Search</h1>
+    </div>
+    <hr>
+    <div class="finder">
+        <h2>Find Pages With...</h2>
+    </div>
+    <form action="https://google.com/search" name="f" id="form" class="flex">
+        <div class="field">
+            <label for="field1">All These Words:</label>
+            <input type="text" class="textinput" id="field1" value="" >
+        </div>
+        <br>
+        <div class="field">
+            <label for="field2">This Exact Word or Phrase: </label>
+            <input type="text" class="textinput" id="field2" value=""  name="as_epq">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field3">Any of These Words: </label>
+            <input type="text" class="textinput" id="field3" value=""  name="as_oq">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field4">None of These Words: </label>
+            <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+        </div>
+        <br>
+        <div class="advancedbtn">
+            <input type="submit" value="Advanced Search">
+        </div>
+    </form>
+    </body>
+</html>

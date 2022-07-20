@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  
+  }
+
+  /* Start CSS for Header Section */
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+  }
+  
+  .header a {
+    margin-left: auto;
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  .header .header-right {
+    display: flex;
+    margin-left: auto;
+    min-width: 13vw;
+
+  }
+
+  /* Start CSS for Main Body */
+  
+  .Body {
+    flex: 1;
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;  
+  }
+  
+  .Body img {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .search-input {
+    display: flex;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .search-input input {
+    flex: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    position: relative;
+ }
+
+  .material-icons {
+    margin-right: auto;
+    align-items: center;
+    width: 50px;
+  }
+  
+  .search-input .material-icons {
+    color: gray; 
+  }
+  
+  .search-buttons {
+    padding: 20px 30px;
+    text-align: center;
+  }
+  
+  .search-buttons input {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+  }
+
+  /* Start CSS for Advanced Search Page */
+
+    .advanced h1 {
+    margin-left: 100px;
+    margin-top: 50px;
+    color: maroon;
+    font-size: 24px;
+  }
+
+    .advanced img {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+  }
+
+    .finder {
+    color: black;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    margin-top: 20px;
+  }
+  
+  .field {
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    vertical-align: auto;
+  }
+
+  .field #field1 {
+    margin-left: 140px;
+    width: 30%;
+    ;
+  }
+  
+  .field #field2 {
+    margin-left: 75px;
+    width: 30%;
+  }
+
+  .field #field3 {
+    margin-left: 115px;
+    width: 30%;
+  }
+
+  .field #field4 {
+    margin-left: 107px;
+    width: 30%;
+  }
+
+  .advancedbtn input {
+    margin-left: 700px;
+    margin-top: 100px;
+    background-color: #4d90fe;
+    color: white;
+  }
+  
+  
+  
+
+  
